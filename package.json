@@ -4,6 +4,7 @@
   "description": "A simple Discord bot that parse rofl files and return metadata",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "dev": "tsc --watch",
     "start": "node dist/index.js"
   },
