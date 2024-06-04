@@ -1,0 +1,25 @@
+{
+  "name": "roflbot",
+  "version": "1.0.0",
+  "description": "A simple Discord bot that parse rofl files and return metadata",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "repository": "git@github.com:gzordrai/roflbot.git",
+  "author": "gzordrai <gzordrai@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "azuria": "^1.0.3",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "rofl-parser.js": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
