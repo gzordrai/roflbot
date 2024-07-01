@@ -16,7 +16,7 @@
     "azuria": "^1.0.3",
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
-    "rofl-parser.js": "^1.0.2"
+    "rofl-parser.js": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",
